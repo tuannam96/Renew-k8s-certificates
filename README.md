@@ -116,7 +116,7 @@ nếu output có dạng
 The connection to the server <ip>:6443 was refused - did you specify the right host or port?
 ```
 
-9. thì chạy lệnh sau. (nếu không có vấn đề gì mà show ra như bước 14 thì vui lòng bỏ qua bước này)
+9. thì chạy lệnh sau. **(nếu không có vấn đề gì mà show ra như bước 14 thì vui lòng bỏ qua bước này)**
 ```
 diff $HOME/fcik8s-old-certs/kubelet.conf /etc/kubernetes/kubelet.conf
 ```
