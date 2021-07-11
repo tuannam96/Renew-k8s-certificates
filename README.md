@@ -1,5 +1,5 @@
-#Hướng dẫn renew certificate kubernetes manual
-##kiểm tra cert hiện tại
+# Hướng dẫn renew certificate kubernetes manual
+## kiểm tra cert hiện tại
 1. Phi vào nút master với quyền root và chạy lệnh sau
 ```kubeadm alpha certs check-expiration```
 output sẽ có dạng như sau, trường hợp của tôi là còn 273 ngày
@@ -21,7 +21,7 @@ scheduler.conf             Sep 17, 2020 21:24 UTC   273d            no
 ```mkdir -p $HOME/fcik8s-old-certs/pki
 /bin/cp -p /etc/kubernetes/pki/*.* $HOME/fcik8s-old-certs/pki
 ls -l $HOME/fcik8s-old-certs/pki/```
-
+```
 output sẽ có dạng như sau
 ```
 total 56
