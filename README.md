@@ -69,7 +69,8 @@ output sẽ có dạng
 ```
 
 5. Chạy lệnh sau để renew toàn bộ cert
-```kubeadm alpha certs renew all
+```
+kubeadm alpha certs renew all
 ```
 
 output sẽ có dạng
@@ -137,7 +138,8 @@ nếu không có output thì config file đang chứa cấu hình trỏ đến k
 
 12. update client-certificate-data và client-key-data trong file ~/.kube/config với giá trị đã được update trong file /etc/kubernetes/kubelet.conf:
 
-```cat /etc/kubernetes/kubelet.conf
+```
+cat /etc/kubernetes/kubelet.conf
 ```
 copy hết output sau dòng client-key-data:
 trong file ~/.kube/config, replace các thông tin sau client-key-data: với text đã copy ở bước trước
